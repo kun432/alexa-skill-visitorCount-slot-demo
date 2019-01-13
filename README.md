@@ -4,8 +4,8 @@
 
 章立ては悪くない本だと思っているのですが、なぜか前半がask-sdk v1。。。2018年12月時点で最も最新なのにそれはないだろうということで、v2で書き換えてみたサンプルです。第３章 3-3の「来場者カウント」スキル・スロット版です
 
-第2章は[こちら](https://github.com/kun432/alexa-skill-visitorCount-demo)
-第3章 3-4のダイアログモデル版は後ほど
+- 第2章は[こちら](https://github.com/kun432/alexa-skill-visitorCount-demo)
+- 第3章 3-4のダイアログモデル版は後ほど
 
 ## 使い方
 
