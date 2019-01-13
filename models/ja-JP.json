@@ -1,0 +1,71 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "来場者カウント",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "VisitorCountIntent",
+                    "slots": [
+                        {
+                            "name": "eventCity",
+                            "type": "AMAZON.City"
+                        },
+                        {
+                            "name": "eventDate",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "eventName",
+                            "type": "EVENT_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{eventCity} で開催された {eventName} への {eventDate} の来場者数を教えて",
+                        "{eventCity} で開催された {eventName} への来場者数を教えて",
+                        "{eventName} への {eventDate} の来場者数を教えて",
+                        "{eventName} への来場者数を教えて",
+                        "来場者数を教えて"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "EVENT_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ジャパンアレクサデイズ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ASKユーザー会"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AIフェスタ"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
